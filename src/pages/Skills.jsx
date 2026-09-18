@@ -7,6 +7,7 @@ import {
   FaReact,
   FaNodeJs,
   FaGithub,
+  FaBootstrap,
 } from 'react-icons/fa'
 
 import {
@@ -60,6 +61,12 @@ const skills = [
   {
     icon: <FaGithub />,
     name: 'GitHub',
+    color: '#ffffff',
+  },
+
+  {
+    icon: <FaBootstrap />,
+    name: 'Bootstrap',
     color: '#ffffff',
   },
 ]
@@ -123,7 +130,7 @@ const Skills = () => {
         {/* ROW 3 */}
         <div className="flex justify-center gap-6 flex-wrap -mt-14">
 
-          {skills.slice(6, 8).map((skill, index) => (
+          {skills.slice(6, 9).map((skill, index) => (
             <div
               key={index}
               className="hexagon-card"

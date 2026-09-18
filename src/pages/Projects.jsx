@@ -19,10 +19,10 @@ const projectData = [
   },
 
   {
-    title: 'portfolio',
-    description: 'portfolio website built using React and Tailwind CSS.',
+    title: 'Movie Website',
+    description: 'movie website.',
     image: profile1,
-    live: 'https://your-live-link.com',
+    live: 'https://exquisite-custard-8451a3.netlify.app/',
   },
 ]
 
